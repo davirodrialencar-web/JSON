@@ -22,4 +22,6 @@ console.log("Usuário cadastrado com sucesso!")
 console.log("usuarios cadastrados")
 console.log(usuarios)
 
+
 fs.writeFileSync('cev.json',JSON.stringify(usuarios,null,2))
+console.log("Cadastro Finalizado!")
