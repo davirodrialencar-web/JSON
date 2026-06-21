@@ -12,7 +12,6 @@ const novoUsuario = {
     nome,
     idade
 }
-
 usuarios.push(novoUsuario)
 fs.writeFileSync('cev.json', JSON.stringify(usuarios,null,2))
 console.log("Usuário cadastrado com sucesso!")
